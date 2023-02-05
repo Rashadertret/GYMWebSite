@@ -21,7 +21,7 @@ namespace GYMLife.Controllers
         {
             return View();
         }
-        public IActionResult Privacy()
+        public IActionResult ClassDetails()
         {
             return View();
         }
