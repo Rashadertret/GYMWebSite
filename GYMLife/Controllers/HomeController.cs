@@ -25,7 +25,39 @@ namespace GYMLife.Controllers
         {
             return View();
         }
-
+        public IActionResult Services()
+        {
+            return View();
+        }
+        public IActionResult OurTeam()
+        {
+            return View();
+        }     
+        public IActionResult ClassTimeTable()
+        {
+            return View();
+        }
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+       
+        public IActionResult Blog()
+        {
+            return View();
+        }
+        public IActionResult BlogDetails()
+        {
+            return View();
+        }
+        public IActionResult Erorr()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
